@@ -1,7 +1,4 @@
-# CODSOFT-WEB-PORTFOLIO
-
-## Level 1 - Task 1: Personal Portfolio Website
-This project was developed as part of the CodSoft Web Development Internship (Level 1 - Task 1).
+WEB-PORTFOLIO
 
 The Personal Portfolio Website is a modern, responsive, and visually appealing web application designed to showcase my profile, technical skills, projects, resume, and contact information. The website features a clean user interface with glassmorphism effects, smooth navigation, interactive sections, and responsive design for an enhanced user experience across different devices.
 
@@ -32,4 +29,3 @@ Through this project, I strengthened my understanding of:
 
 **ISBANDU RAHUMAN R**
 
-CodSoft Web Development Internship – Level 1 Task 1
