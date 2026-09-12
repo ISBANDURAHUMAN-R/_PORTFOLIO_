@@ -16,7 +16,7 @@ const PROJECTS = [
     problem: "Misinformation spreads faster than it can be verified, and most people have no quick way to check a claim.",
     solution: "A pipeline that detects claims in a piece of content, generates targeted search queries, gathers web evidence and scores source credibility before presenting an analysis.",
     tech: ["Python", "FastAPI", "Google GenAI", "Next.js", "React", "REST APIs"],
-    github: "https://github.com/ISBANDURAHUMAN-R/TRUTHLENS-AI", demo: null,
+    github: "https://github.com/ISBANDURAHUMAN-R/TRUVEX", demo: null,
   },
   {
     name: "Quantum Threat", tag: "Security", year: "2025", status: "Active",
