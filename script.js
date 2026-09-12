@@ -11,7 +11,7 @@ const PROFILE = {
 
 const PROJECTS = [
   {
-    name: "TruthLens AI", tag: "Featured", year: "2025", status: "Active",
+    name: "TRUVEX", tag: "Featured", year: "2026", status: "Active",
     description: "An AI-powered fact-checking application built to help people evaluate digital claims quickly and transparently.",
     problem: "Misinformation spreads faster than it can be verified, and most people have no quick way to check a claim.",
     solution: "A pipeline that detects claims in a piece of content, generates targeted search queries, gathers web evidence and scores source credibility before presenting an analysis.",
