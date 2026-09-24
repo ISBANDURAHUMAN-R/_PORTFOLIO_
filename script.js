@@ -74,19 +74,19 @@ const PROJECTS = [
   github: "https://github.com/ISBANDURAHUMAN-R/NEXORA",
   demo: null
 },
-  {
-  name: "PEKKA AI",
-  tag: "Artificial Intelligence",
-  year: "2026",
-  status: "Active",
-  description: "An intelligent AI-powered assistant designed to understand user queries, provide useful responses, and simplify everyday tasks through natural language interaction.",
-  problem: "Finding information, solving problems, and completing repetitive tasks across different tools can be time-consuming and require switching between multiple platforms.",
-  solution: "An AI-powered assistant that processes natural language input, understands user intent, and provides intelligent responses and task assistance through a simple interactive interface.",
-  tech: ["Python", "FastAPI", "AI", "HTML", "CSS", "JavaScript"],
-  github: "https://github.com/ISBANDURAHUMAN-R/PEKKA-AI",
-  demo: null
-},
-  
+{
+name: "PEKKA AI",
+tag: "Autonomous AI for Critical Infrastructure",
+year: "2026",
+status: "Active",
+description: "An autonomous AI-powered monitoring and decision-support system designed to detect abnormal behavior in critical infrastructure, predict potential equipment failures, and recommend preventive actions to human operators.",
+problem: "Critical infrastructure such as power grids and transformer systems continuously generate large volumes of operational data. Equipment degradation can remain unnoticed until it develops into a serious failure, causing service disruptions, financial losses, and safety risks.",
+solution: "PEKKA AI continuously analyzes infrastructure telemetry from virtual or real sensors, engineers operational features, detects abnormal patterns using machine learning, estimates failure risk, and provides explainable preventive recommendations to human operators before potential disruptions become severe.",
+tech: ["Python", "FastAPI", "scikit-learn", "Pandas", "NumPy", "Machine Learning", "Java", "Spring Boot", "HTML", "CSS", "JavaScript"],
+github: "https://github.com/ISBANDURAHUMAN-R/PEKKA-AI",
+demo: null
+}
+
   
 
   
