@@ -74,6 +74,22 @@ const PROJECTS = [
   github: "https://github.com/ISBANDURAHUMAN-R/NEXORA",
   demo: null
 },
+  {
+  name: "PEKKA AI",
+  tag: "Artificial Intelligence",
+  year: "2026",
+  status: "Active",
+  description: "An intelligent AI-powered assistant designed to understand user queries, provide useful responses, and simplify everyday tasks through natural language interaction.",
+  problem: "Finding information, solving problems, and completing repetitive tasks across different tools can be time-consuming and require switching between multiple platforms.",
+  solution: "An AI-powered assistant that processes natural language input, understands user intent, and provides intelligent responses and task assistance through a simple interactive interface.",
+  tech: ["Python", "FastAPI", "AI", "HTML", "CSS", "JavaScript"],
+  github: "https://github.com/ISBANDURAHUMAN-R/PEKKA-AI",
+  demo: null
+},
+  
+  
+
+  
 ];
 
 const MINI_PROJECTS = [
