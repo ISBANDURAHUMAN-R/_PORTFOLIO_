@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Achievements | Isbandu Rahuman R.</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#1B303D" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#1B303D">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Isbandu Portfolio">
+  <meta name="application-name" content="Isbandu Portfolio">
+  <meta name="msapplication-TileColor" content="#1B303D">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="page-transition-bar" aria-hidden="true"></div>
+  <div id="page-transition-curtain" aria-hidden="true"></div>
+
+  <div id="custom-cursor" aria-hidden="true">
+    <svg viewBox="0 0 24 32">
+      <path d="M2 2L20.8 20.4L12.8 21.5L17.2 30L13.8 31.7L9.3 23L3 29Z" />
+    </svg>
+    <span id="cursor-badge"></span>
+  </div>
+  <div id="cursor-glow" aria-hidden="true"></div>
+  <div id="cursor-sparkles" aria-hidden="true"></div>
+
+  <nav class="site-nav scrolled">
+    <a href="index.html" class="nav-brand">IR</a>
+    <div class="nav-items">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="achievements.html" class="active">Achievements</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">☰</button>
+  </nav>
+  <div id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+    <a href="achievements.html" class="active">Achievements</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="page-header">
+      <div class="section-inner">
+        <div class="page-eyebrow reveal in">ACHIEVEMENTS</div>
+        <h1 class="page-title reveal in">ACHIEVEMENTS</h1>
+        <p class="page-sub reveal in">Competitions, awards, and verified technical credentials.</p>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:none; padding-top:0;">
+      <div class="section-inner">
+        <div id="achievements-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div>
+        <div class="footer-name">Isbandu Rahuman R.</div>
+        <div class="footer-role">AI &amp; Data Science · Developer · Builder</div>
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="https://github.com/ISBANDURAHUMAN-R" target="_blank" rel="noreferrer"
+          data-cursor="OPEN">GitHub</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/isbandu-rahuman-r-4b855b396/" target="_blank"
+          rel="noreferrer" data-cursor="OPEN">LinkedIn</a>
+        <a class="footer-link" href="mailto:r1rahuman@gmail.com" data-cursor="OPEN">Email</a>
+      </div>
+      <div class="footer-copy">© 2026 Isbandu Rahuman R.</div>
+    </div>
+  </footer>
+
+  <button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top" title="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <nav class="mobile-bottom-dock" aria-label="Mobile Navigation">
+    <a href="index.html" class="dock-item" data-page="home">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+        <polyline points="9 22 9 12 15 12 15 22" />
+      </svg>
+      <span>Home</span>
+    </a>
+    <a href="projects.html" class="dock-item" data-page="projects">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+        <line x1="8" y1="21" x2="16" y2="21" />
+        <line x1="12" y1="17" x2="12" y2="21" />
+      </svg>
+      <span>Projects</span>
+    </a>
+    <a href="experience.html" class="dock-item" data-page="experience">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+      </svg>
+      <span>Exp</span>
+    </a>
+    <a href="skills.html" class="dock-item" data-page="skills">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+      </svg>
+      <span>Skills</span>
+    </a>
+    <a href="contact.html" class="dock-item" data-page="contact">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+        <polyline points="22,6 12,13 2,6" />
+      </svg>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
