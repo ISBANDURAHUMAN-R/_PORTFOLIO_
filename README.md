@@ -2,7 +2,7 @@
 
 > A modern, interactive portfolio showcasing my projects, skills, achievements, and journey in AI & Data Science.
 
-🌐 **Live Portfolio:** https://webportfoliocodsoft.netlify.app/
+🌐 **Live Portfolio:** https://portfoliorahuman.netlify.app/
 
 ---
 
