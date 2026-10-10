@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <!-- 5 CURATED, HIGH-PRECISION CAD & ARCHITECTURE SCHEMATICS -->
+  <!-- SPACIOUS, UNCLUTTERED LAYOUT WITH GENEROUS BREATHING ROOM -->
+  <!-- PALETTE: SUBTLE MUTED PASTEL BLUEPRINT (GLACIAL CYAN, SAGE MINT, BUTTER AMBER, LAVENDER, ROSE PEACH & FROST WHITE) -->
+
+  <g stroke-linecap="butt" stroke-linejoin="miter">
+
+    <!-- ========================================================================= -->
+    <!-- 1. EPICYCLIC PLANETARY GEARBOX ASSEMBLY (TOP-LEFT)                        -->
+    <!-- ========================================================================= -->
+    <g transform="translate(130, 90) rotate(-8, 75, 75) scale(0.55)">
+      <!-- Datum Centerlines (Frost White) -->
+      <line x1="75" y1="-5" x2="75" y2="155" stroke="rgba(230, 245, 255, 0.38)" stroke-width="0.65" stroke-dasharray="7 2 1 2" />
+      <line x1="-5" y1="75" x2="155" y2="75" stroke="rgba(230, 245, 255, 0.38)" stroke-width="0.65" stroke-dasharray="7 2 1 2" />
+
+      <!-- Outer Annulus Housing (Pastel Glacial Cyan) -->
+      <circle cx="75" cy="75" r="72" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.6" fill="rgba(130, 205, 235, 0.04)" />
+      <circle cx="75" cy="75" r="76" stroke="rgba(130, 205, 235, 0.45)" stroke-width="0.8" />
+      <!-- Housing Bolts -->
+      <circle cx="75" cy="3" r="2.5" stroke="rgba(130, 205, 235, 0.7)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.2)" />
+      <circle cx="137" cy="39" r="2.5" stroke="rgba(130, 205, 235, 0.7)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.2)" />
+      <circle cx="137" cy="111" r="2.5" stroke="rgba(130, 205, 235, 0.7)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.2)" />
+      <circle cx="75" cy="147" r="2.5" stroke="rgba(130, 205, 235, 0.7)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.2)" />
+      <circle cx="13" cy="111" r="2.5" stroke="rgba(130, 205, 235, 0.7)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.2)" />
+      <circle cx="13" cy="39" r="2.5" stroke="rgba(130, 205, 235, 0.7)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.2)" />
+
+      <!-- Annulus Internal Gear Pitch Circle -->
+      <circle cx="75" cy="75" r="64" stroke="rgba(130, 205, 235, 0.4)" stroke-width="0.75" stroke-dasharray="4 2" />
+      <path d="
+        M 75,11 L 73,17 L 77,17 Z M 93,14 L 90,19 L 94,20 Z M 110,21 L 106,25 L 110,27 Z
+        M 125,32 L 120,35 L 123,38 Z M 135,47 L 130,49 L 132,53 Z M 140,64 L 135,65 L 136,69 Z
+        M 140,86 L 135,85 L 136,81 Z M 135,103 L 130,101 L 132,97 Z M 125,118 L 120,115 L 123,112 Z
+        M 110,129 L 106,125 L 110,123 Z M 93,136 L 90,131 L 94,130 Z M 75,139 L 73,133 L 77,133 Z
+        M 57,136 L 60,131 L 56,130 Z M 40,129 L 44,125 L 40,123 Z M 25,118 L 30,115 L 27,112 Z
+        M 15,103 L 20,101 L 18,97 Z M 10,86 L 15,85 L 14,81 Z M 10,64 L 15,65 L 14,69 Z
+        M 15,47 L 20,49 L 18,53 Z M 25,32 L 30,35 L 27,38 Z M 40,21 L 44,25 L 40,27 Z
+        M 57,14 L 60,19 L 56,20 Z" 
+        stroke="rgba(130, 205, 235, 0.6)" stroke-width="0.9" fill="rgba(130, 205, 235, 0.18)" />
+
+      <!-- Center Sun Gear (Pastel Sage Mint) -->
+      <circle cx="75" cy="75" r="22" stroke="rgba(145, 220, 185, 0.72)" stroke-width="1.3" fill="rgba(145, 220, 185, 0.08)" />
+      <circle cx="75" cy="75" r="11" stroke="rgba(145, 220, 185, 0.6)" stroke-width="1.1" />
+      <path d="M 71,64 L 79,64 L 79,68 L 71,68 Z" stroke="rgba(145, 220, 185, 0.8)" stroke-width="0.9" fill="rgba(145, 220, 185, 0.4)" />
+      <circle cx="75" cy="75" r="25" stroke="rgba(145, 220, 185, 0.4)" stroke-width="0.75" stroke-dasharray="3 2" />
+
+      <!-- 3 Planetary Gears (Pastel Butter Amber) -->
+      <g transform="translate(75, 36)">
+        <circle cx="0" cy="0" r="19" stroke="rgba(240, 215, 140, 0.72)" stroke-width="1.2" fill="rgba(240, 215, 140, 0.07)" />
+        <circle cx="0" cy="0" r="16" stroke="rgba(240, 215, 140, 0.4)" stroke-width="0.75" stroke-dasharray="3 2" />
+        <circle cx="0" cy="0" r="7" stroke="rgba(240, 215, 140, 0.6)" stroke-width="1" />
+        <circle cx="0" cy="0" r="2" fill="rgba(240, 215, 140, 0.9)" />
+      </g>
+
+      <g transform="translate(109, 95)">
+        <circle cx="0" cy="0" r="19" stroke="rgba(240, 215, 140, 0.72)" stroke-width="1.2" fill="rgba(240, 215, 140, 0.07)" />
+        <circle cx="0" cy="0" r="16" stroke="rgba(240, 215, 140, 0.4)" stroke-width="0.75" stroke-dasharray="3 2" />
+        <circle cx="0" cy="0" r="7" stroke="rgba(240, 215, 140, 0.6)" stroke-width="1" />
+        <circle cx="0" cy="0" r="2" fill="rgba(240, 215, 140, 0.9)" />
+      </g>
+
+      <g transform="translate(41, 95)">
+        <circle cx="0" cy="0" r="19" stroke="rgba(240, 215, 140, 0.72)" stroke-width="1.2" fill="rgba(240, 215, 140, 0.07)" />
+        <circle cx="0" cy="0" r="16" stroke="rgba(240, 215, 140, 0.4)" stroke-width="0.75" stroke-dasharray="3 2" />
+        <circle cx="0" cy="0" r="7" stroke="rgba(240, 215, 140, 0.6)" stroke-width="1" />
+        <circle cx="0" cy="0" r="2" fill="rgba(240, 215, 140, 0.9)" />
+      </g>
+
+      <!-- Carrier Spider Link (Pastel Frost White) -->
+      <polygon points="75,36 109,95 41,95" stroke="rgba(230, 245, 255, 0.55)" stroke-width="1.2" stroke-dasharray="5 2.5" />
+      <circle cx="75" cy="75" r="43" stroke="rgba(230, 245, 255, 0.35)" stroke-width="0.65" stroke-dasharray="6 2 1 2" />
+    </g>
+
+
+    <!-- ========================================================================= -->
+    <!-- 2. TRANSFORMER ATTENTION & TENSOR PIPELINE (TOP-RIGHT)                    -->
+    <!-- ========================================================================= -->
+    <g transform="translate(870, 95) rotate(10, 85, 75) scale(0.55)">
+      <!-- Input Token Embedding Register (Pastel Lavender) -->
+      <rect x="25" y="10" width="120" height="15" stroke="rgba(195, 180, 235, 0.7)" stroke-width="1.3" fill="rgba(195, 180, 235, 0.08)" />
+      <line x1="55" y1="10" x2="55" y2="25" stroke="rgba(195, 180, 235, 0.45)" stroke-width="0.8" />
+      <line x1="85" y1="10" x2="85" y2="25" stroke="rgba(195, 180, 235, 0.45)" stroke-width="0.8" />
+      <line x1="115" y1="10" x2="115" y2="25" stroke="rgba(195, 180, 235, 0.45)" stroke-width="0.8" />
+
+      <!-- Q (Cyan), K (Sage Mint), V (Rose Peach) Projection Tensors -->
+      <line x1="45" y1="25" x2="35" y2="46" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.1" />
+      <line x1="85" y1="25" x2="85" y2="46" stroke="rgba(145, 220, 185, 0.65)" stroke-width="1.1" />
+      <line x1="125" y1="25" x2="135" y2="46" stroke="rgba(245, 170, 170, 0.65)" stroke-width="1.1" />
+
+      <rect x="20" y="46" width="30" height="20" stroke="rgba(130, 205, 235, 0.72)" stroke-width="1.2" fill="rgba(130, 205, 235, 0.1)" />
+      <line x1="20" y1="56" x2="50" y2="56" stroke="rgba(130, 205, 235, 0.4)" stroke-width="0.75" stroke-dasharray="2 2" />
+      <rect x="70" y="46" width="30" height="20" stroke="rgba(145, 220, 185, 0.72)" stroke-width="1.2" fill="rgba(145, 220, 185, 0.1)" />
+      <line x1="70" y1="56" x2="100" y2="56" stroke="rgba(145, 220, 185, 0.4)" stroke-width="0.75" stroke-dasharray="2 2" />
+      <rect x="120" y="46" width="30" height="20" stroke="rgba(245, 170, 170, 0.72)" stroke-width="1.2" fill="rgba(245, 170, 170, 0.1)" />
+      <line x1="120" y1="56" x2="150" y2="56" stroke="rgba(245, 170, 170, 0.4)" stroke-width="0.75" stroke-dasharray="2 2" />
+
+      <!-- Scaled Dot-Product Core Node (Pastel Amber) -->
+      <circle cx="55" cy="92" r="12" stroke="rgba(240, 215, 140, 0.75)" stroke-width="1.3" fill="rgba(240, 215, 140, 0.08)" />
+      <line x1="47" y1="84" x2="63" y2="100" stroke="rgba(240, 215, 140, 0.7)" stroke-width="1.2" />
+      <line x1="63" y1="84" x2="47" y2="100" stroke="rgba(240, 215, 140, 0.7)" stroke-width="1.2" />
+      <line x1="35" y1="66" x2="46" y2="83" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.1" />
+      <line x1="75" y1="66" x2="64" y2="83" stroke="rgba(145, 220, 185, 0.65)" stroke-width="1.1" />
+
+      <!-- Softmax Normalization Distribution (Pastel Rose Peach) -->
+      <rect x="85" y="82" width="36" height="22" stroke="rgba(245, 170, 170, 0.65)" stroke-width="1.1" fill="rgba(245, 170, 170, 0.06)" />
+      <line x1="88" y1="99" x2="118" y2="99" stroke="rgba(245, 170, 170, 0.4)" stroke-width="0.75" />
+      <path d="M 88,99 C 96,99, 99,87, 103,87 C 107,87, 110,99, 118,99" stroke="rgba(245, 170, 170, 0.85)" stroke-width="1.4" />
+      <line x1="67" y1="92" x2="85" y2="92" stroke="rgba(240, 215, 140, 0.65)" stroke-width="1.1" />
+
+      <!-- Multi-Head Attention Matrix Junction -->
+      <line x1="103" y1="104" x2="103" y2="122" stroke="rgba(245, 170, 170, 0.6)" stroke-width="1.1" />
+      <line x1="135" y1="66" x2="135" y2="118" stroke="rgba(245, 170, 170, 0.6)" stroke-width="1.1" />
+      <circle cx="119" cy="126" r="11" stroke="rgba(195, 180, 235, 0.72)" stroke-width="1.3" fill="rgba(195, 180, 235, 0.1)" />
+      <line x1="112" y1="119" x2="126" y2="133" stroke="rgba(195, 180, 235, 0.7)" stroke-width="1.2" />
+      <line x1="126" y1="119" x2="112" y2="133" stroke="rgba(195, 180, 235, 0.7)" stroke-width="1.2" />
+
+      <!-- Residual Skip Connection Highway (Pastel Cyan) -->
+      <path d="M 145,17 C 172,17, 172,130, 142,146" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.3" stroke-dasharray="4 2.5" />
+      <circle cx="132" cy="146" r="6" stroke="rgba(130, 205, 235, 0.7)" stroke-width="1.2" />
+      <line x1="128" y1="146" x2="136" y2="146" stroke="rgba(130, 205, 235, 0.7)" stroke-width="1.1" />
+      <line x1="132" y1="142" x2="132" y2="150" stroke="rgba(130, 205, 235, 0.7)" stroke-width="1.1" />
+
+      <!-- Feedforward Output Nodes (Pastel Sage Mint) -->
+      <circle cx="45" cy="148" r="4.5" stroke="rgba(145, 220, 185, 0.8)" stroke-width="1.1" fill="rgba(145, 220, 185, 0.3)" />
+      <circle cx="65" cy="148" r="4.5" stroke="rgba(145, 220, 185, 0.8)" stroke-width="1.1" fill="rgba(145, 220, 185, 0.3)" />
+      <circle cx="85" cy="148" r="4.5" stroke="rgba(145, 220, 185, 0.8)" stroke-width="1.1" fill="rgba(145, 220, 185, 0.3)" />
+      <circle cx="105" cy="148" r="4.5" stroke="rgba(145, 220, 185, 0.8)" stroke-width="1.1" fill="rgba(145, 220, 185, 0.3)" />
+    </g>
+
+
+    <!-- ========================================================================= -->
+    <!-- 3. VLSI SILICON DIE & SERPENTINE PCB (CENTER)                             -->
+    <!-- ========================================================================= -->
+    <g transform="translate(500, 350) rotate(-10, 75, 75) scale(0.55)">
+      <!-- PCB Substrate (Pastel Glacial Cyan) -->
+      <rect x="10" y="10" width="135" height="135" rx="4" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.6" fill="rgba(130, 205, 235, 0.04)" />
+      <circle cx="20" cy="20" r="3.5" stroke="rgba(130, 205, 235, 0.6)" stroke-width="1.1" />
+      <circle cx="135" cy="20" r="3.5" stroke="rgba(130, 205, 235, 0.6)" stroke-width="1.1" />
+      <circle cx="20" cy="135" r="3.5" stroke="rgba(130, 205, 235, 0.6)" stroke-width="1.1" />
+      <circle cx="135" cy="135" r="3.5" stroke="rgba(130, 205, 235, 0.6)" stroke-width="1.1" />
+
+      <!-- BGA Socket Pad Boundary -->
+      <rect x="36" y="36" width="82" height="82" stroke="rgba(130, 205, 235, 0.4)" stroke-width="1.1" stroke-dasharray="3 2" />
+
+      <!-- Silicon Die with Multi-Core Floorplan (Pastel Lavender) -->
+      <rect x="52" y="52" width="50" height="50" stroke="rgba(195, 180, 235, 0.75)" stroke-width="1.5" fill="rgba(195, 180, 235, 0.08)" />
+      <!-- Core Partitions -->
+      <rect x="55" y="55" width="20" height="18" stroke="rgba(195, 180, 235, 0.55)" stroke-width="0.8" fill="rgba(195, 180, 235, 0.12)" />
+      <rect x="79" y="55" width="20" height="18" stroke="rgba(195, 180, 235, 0.55)" stroke-width="0.8" fill="rgba(195, 180, 235, 0.12)" />
+      <rect x="55" y="79" width="20" height="18" stroke="rgba(195, 180, 235, 0.55)" stroke-width="0.8" fill="rgba(195, 180, 235, 0.12)" />
+      <rect x="79" y="79" width="20" height="18" stroke="rgba(195, 180, 235, 0.55)" stroke-width="0.8" fill="rgba(195, 180, 235, 0.12)" />
+      <!-- L3 Cache SRAM Matrix (Pastel Amber) -->
+      <rect x="62" y="74" width="30" height="4" stroke="rgba(240, 215, 140, 0.75)" stroke-width="0.8" fill="rgba(240, 215, 140, 0.4)" />
+
+      <!-- Serpentine Delay Matching Traces (Pastel Sage Mint) -->
+      <path d="M 52,64 L 32,64 L 32,58 L 26,58 L 26,70 L 20,70 L 20,58 L 12,58" stroke="rgba(145, 220, 185, 0.75)" stroke-width="1.2" />
+      <path d="M 52,90 L 32,90 L 32,84 L 26,84 L 26,96 L 20,96 L 20,84 L 12,84" stroke="rgba(145, 220, 185, 0.75)" stroke-width="1.2" />
+
+      <!-- Differential Pair Routing -->
+      <path d="M 85,102 L 85,120 L 98,133 L 115,133" stroke="rgba(145, 220, 185, 0.7)" stroke-width="1.1" />
+      <path d="M 89,102 L 89,118 L 102,130 L 115,130" stroke="rgba(145, 220, 185, 0.7)" stroke-width="1.1" />
+
+      <!-- Micro-Via Stitching Arrays (Frost White) -->
+      <circle cx="42" cy="42" r="1.5" fill="rgba(230, 245, 255, 0.75)" />
+      <circle cx="48" cy="42" r="1.5" fill="rgba(230, 245, 255, 0.75)" />
+      <circle cx="106" cy="42" r="1.5" fill="rgba(230, 245, 255, 0.75)" />
+      <circle cx="112" cy="42" r="1.5" fill="rgba(230, 245, 255, 0.75)" />
+      <circle cx="42" cy="112" r="1.5" fill="rgba(230, 245, 255, 0.75)" />
+      <circle cx="112" cy="112" r="1.5" fill="rgba(230, 245, 255, 0.75)" />
+
+      <!-- Ceramic Bypass SMT Capacitors (Pastel Butter Amber) -->
+      <rect x="60" y="24" width="12" height="6" stroke="rgba(240, 215, 140, 0.7)" stroke-width="0.9" fill="rgba(240, 215, 140, 0.25)" />
+      <rect x="82" y="24" width="12" height="6" stroke="rgba(240, 215, 140, 0.7)" stroke-width="0.9" fill="rgba(240, 215, 140, 0.25)" />
+    </g>
+
+
+    <!-- ========================================================================= -->
+    <!-- 4. COMPUTER VISION OPTICAL RAY TRACING & SENSOR (BOTTOM-LEFT)             -->
+    <!-- ========================================================================= -->
+    <g transform="translate(150, 560) rotate(6, 80, 50) scale(0.55)">
+      <!-- Optical Axis Datum (Frost White) -->
+      <line x1="5" y1="50" x2="165" y2="50" stroke="rgba(230, 245, 255, 0.45)" stroke-width="0.7" stroke-dasharray="7 2 1 2" />
+
+      <!-- Lens Element 1: Biconvex (Pastel Glacial Cyan) -->
+      <path d="M 30,12 C 42,28, 42,72, 30,88 C 18,72, 18,28, 30,12 Z" stroke="rgba(130, 205, 235, 0.72)" stroke-width="1.3" fill="rgba(130, 205, 235, 0.1)" />
+      <line x1="30" y1="12" x2="30" y2="88" stroke="rgba(130, 205, 235, 0.4)" stroke-width="0.75" stroke-dasharray="2 2" />
+
+      <!-- Lens Element 2: Concave (Pastel Lavender) -->
+      <path d="M 60,18 C 55,34, 55,66, 60,82 L 68,82 C 63,66, 63,34, 68,18 Z" stroke="rgba(195, 180, 235, 0.72)" stroke-width="1.3" fill="rgba(195, 180, 235, 0.1)" />
+
+      <!-- Aperture Blades (Pastel Butter Amber) -->
+      <line x1="84" y1="10" x2="84" y2="34" stroke="rgba(240, 215, 140, 0.8)" stroke-width="1.6" />
+      <line x1="84" y1="90" x2="84" y2="66" stroke="rgba(240, 215, 140, 0.8)" stroke-width="1.6" />
+      <circle cx="84" cy="34" r="2" fill="rgba(240, 215, 140, 0.9)" />
+      <circle cx="84" cy="66" r="2" fill="rgba(240, 215, 140, 0.9)" />
+
+      <!-- Lens Element 3: Doublet (Pastel Glacial Cyan) -->
+      <path d="M 104,22 C 114,35, 114,65, 104,78 Z" stroke="rgba(130, 205, 235, 0.72)" stroke-width="1.3" fill="rgba(130, 205, 235, 0.1)" />
+
+      <!-- Refracted Optical Rays (Pastel Rose Peach) -->
+      <path d="M 8,24 L 27,24 L 62,32 L 84,40 L 105,42 L 142,50" stroke="rgba(245, 170, 170, 0.8)" stroke-width="1.2" />
+      <path d="M 8,76 L 27,76 L 62,68 L 84,60 L 105,58 L 142,50" stroke="rgba(245, 170, 170, 0.8)" stroke-width="1.2" />
+      <path d="M 8,36 L 29,36 L 61,42 L 105,46 L 142,50" stroke="rgba(240, 215, 140, 0.65)" stroke-width="0.85" stroke-dasharray="3 2" />
+      <path d="M 8,64 L 29,64 L 61,58 L 105,54 L 142,50" stroke="rgba(240, 215, 140, 0.65)" stroke-width="0.85" stroke-dasharray="3 2" />
+
+      <!-- CMOS Sensor (Pastel Sage Mint) -->
+      <rect x="142" y="24" width="6" height="52" stroke="rgba(145, 220, 185, 0.8)" stroke-width="1.3" fill="rgba(145, 220, 185, 0.3)" />
+
+      <!-- Feature Matrix Receptive Field -->
+      <g transform="translate(156, 32)">
+        <rect x="0" y="0" width="18" height="18" stroke="rgba(145, 220, 185, 0.7)" stroke-width="1.1" fill="rgba(145, 220, 185, 0.08)" />
+        <line x1="6" y1="0" x2="6" y2="18" stroke="rgba(145, 220, 185, 0.45)" stroke-width="0.65" />
+        <line x1="12" y1="0" x2="12" y2="18" stroke="rgba(145, 220, 185, 0.45)" stroke-width="0.65" />
+        <line x1="0" y1="6" x2="18" y2="6" stroke="rgba(145, 220, 185, 0.45)" stroke-width="0.65" />
+        <line x1="0" y1="12" x2="18" y2="12" stroke="rgba(145, 220, 185, 0.45)" stroke-width="0.65" />
+      </g>
+    </g>
+
+
+    <!-- ========================================================================= -->
+    <!-- 5. DISTRIBUTED CLOUD & SHARDED DATABASE ARCHITECTURE (BOTTOM-RIGHT)       -->
+    <!-- ========================================================================= -->
+    <g transform="translate(860, 520) rotate(-10, 80, 70) scale(0.55)">
+      <!-- API Gateway Ingress (Pastel Lavender) -->
+      <polygon points="80,10 102,22 102,46 80,58 58,46 58,22" stroke="rgba(195, 180, 235, 0.75)" stroke-width="1.4" fill="rgba(195, 180, 235, 0.08)" />
+      <line x1="80" y1="10" x2="80" y2="58" stroke="rgba(195, 180, 235, 0.45)" stroke-width="0.75" stroke-dasharray="3 2" />
+      <circle cx="80" cy="34" r="6" stroke="rgba(195, 180, 235, 0.7)" stroke-width="1" />
+      <line x1="80" y1="-4" x2="80" y2="10" stroke="rgba(195, 180, 235, 0.7)" stroke-width="1.4" />
+      <polygon points="77,5 80,11 83,5" fill="rgba(195, 180, 235, 0.85)" />
+
+      <!-- Event Stream Queue (Pastel Butter Amber) -->
+      <g transform="translate(18, 64)">
+        <rect x="0" y="0" width="124" height="20" stroke="rgba(240, 215, 140, 0.72)" stroke-width="1.3" fill="rgba(240, 215, 140, 0.06)" />
+        <line x1="24" y1="0" x2="24" y2="20" stroke="rgba(240, 215, 140, 0.45)" stroke-width="0.9" />
+        <line x1="48" y1="0" x2="48" y2="20" stroke="rgba(240, 215, 140, 0.45)" stroke-width="0.9" />
+        <line x1="72" y1="0" x2="72" y2="20" stroke="rgba(240, 215, 140, 0.45)" stroke-width="0.9" />
+        <line x1="96" y1="0" x2="96" y2="20" stroke="rgba(240, 215, 140, 0.45)" stroke-width="0.9" />
+        <circle cx="12" cy="10" r="2.5" fill="rgba(240, 215, 140, 0.7)" />
+        <circle cx="36" cy="10" r="2.5" fill="rgba(240, 215, 140, 0.7)" />
+        <circle cx="60" cy="10" r="2.5" fill="rgba(240, 215, 140, 0.7)" />
+        <polygon points="80,25 84,20 88,25" fill="rgba(240, 215, 140, 0.85)" />
+      </g>
+      <line x1="80" y1="58" x2="80" y2="64" stroke="rgba(240, 215, 140, 0.65)" stroke-width="1.3" />
+
+      <!-- Primary Sharded Database Cylinder (Pastel Glacial Cyan) -->
+      <g transform="translate(24, 98)">
+        <ellipse cx="28" cy="12" rx="24" ry="9" stroke="rgba(130, 205, 235, 0.72)" stroke-width="1.3" fill="rgba(130, 205, 235, 0.1)" />
+        <path d="M 4,12 L 4,44 C 4,50, 15,54, 28,54 C 41,54, 52,50, 52,44 L 52,12" stroke="rgba(130, 205, 235, 0.72)" stroke-width="1.3" fill="rgba(130, 205, 235, 0.05)" />
+        <path d="M 4,23 C 4,28, 15,32, 28,32 C 41,32, 52,28, 52,23" stroke="rgba(130, 205, 235, 0.45)" stroke-width="0.9" />
+        <path d="M 4,34 C 4,39, 15,43, 28,43 C 41,43, 52,39, 52,34" stroke="rgba(130, 205, 235, 0.45)" stroke-width="0.9" />
+        <line x1="42" y1="14" x2="42" y2="48" stroke="rgba(130, 205, 235, 0.35)" stroke-width="0.65" />
+        <line x1="46" y1="13" x2="46" y2="46" stroke="rgba(130, 205, 235, 0.4)" stroke-width="0.75" />
+      </g>
+
+      <!-- Replica Secondary Shard Cylinder (Pastel Glacial Cyan) -->
+      <g transform="translate(86, 106)">
+        <ellipse cx="22" cy="10" rx="18" ry="7" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.2" fill="rgba(130, 205, 235, 0.08)" />
+        <path d="M 4,10 L 4,36 C 4,41, 12,44, 22,44 C 32,44, 40,41, 40,36 L 40,10" stroke="rgba(130, 205, 235, 0.65)" stroke-width="1.2" fill="rgba(130, 205, 235, 0.04)" />
+        <path d="M 4,19 C 4,23, 12,26, 22,26 C 32,26, 40,23, 40,19" stroke="rgba(130, 205, 235, 0.4)" stroke-width="0.8" />
+        <path d="M 4,28 C 4,32, 12,35, 22,35 C 32,35, 40,32, 40,28" stroke="rgba(130, 205, 235, 0.4)" stroke-width="0.8" />
+      </g>
+
+      <!-- Replication Stream (Pastel Sage Mint) -->
+      <path d="M 76,120 L 86,120" stroke="rgba(145, 220, 185, 0.72)" stroke-width="1.2" stroke-dasharray="3 2" />
+      <polygon points="83,117 88,120 83,123" fill="rgba(145, 220, 185, 0.85)" />
+    </g>
+
+  </g>
+</svg>
