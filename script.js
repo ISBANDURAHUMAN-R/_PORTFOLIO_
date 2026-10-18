@@ -31,6 +31,35 @@ const PROJECTS = [
     github: "https://github.com/ISBANDURAHUMAN-R/PEKKA-AI",
     demo: null
   },
+  
+{
+  name: "NINJA JUTSU",
+  tag: "Hand Gesture Recognition",
+  category: "Computer Vision",
+  year: "2026",
+  status: "Active",
+
+  description: "An interactive AI-powered ninja jutsu simulator that uses real-time webcam hand gesture recognition to trigger anime-inspired jutsu effects based on specific hand signs performed by the user.",
+
+  problem: "Anime-inspired hand signs are usually limited to fictional scenes and animations. There is no simple interactive way for users to perform recognizable hand signs in front of a camera and experience corresponding jutsu effects in real time.",
+
+  solution: "A real-time computer vision application that accesses the user's webcam, recognizes predefined ninja hand signs using hand tracking and gesture classification, and triggers corresponding anime-inspired jutsu animations and visual effects. Each recognized gesture activates a unique ability, such as Fire Style, Shadow Clone Jutsu, Chidori, or Rasengan, through an immersive interactive interface.",
+
+  tech: [
+    "Python",
+    "OpenCV",
+    "MediaPipe",
+    "Machine Learning",
+    "FastAPI",
+    "JavaScript",
+    "HTML",
+    "Tailwind CSS"
+  ],
+
+  github: null,
+  demo: null
+},
+
   {
     name: "QUANTUM THREAT", tag: "Security", category: "FullStack", year: "2025", status: "Active",
     description: "A cybersecurity project exploring quantum-related threat modeling and defenses.",
@@ -129,6 +158,25 @@ const MINI_PROJECTS = [
     github: "https://github.com/ISBANDURAHUMAN-R/FIRST_LANDPAGE",
     demo: "https://isbandurahuman-r.github.io/FIRST_LANDPAGE/",
   },
+  {
+  name: "3D GOTHIC CHESS",
+  tag: "3D Web Development",
+  year: "2026",
+  desc: "An immersive 3D chess experience featuring gothic-inspired aesthetics, detailed chess pieces, atmospheric lighting, and a dark fantasy environment that transforms traditional chess into a visually captivating experience.",
+  tech: ["HTML5", "CSS3", "JavaScript", "Three.js", "WebGL"],
+  github: null,
+  demo: null,
+},
+
+{
+  name: "3D ARENA",
+  tag: "3D Interactive Experience",
+  year: "2026",
+  desc: "An immersive 3D arena environment featuring a dynamic battlefield, atmospheric lighting, detailed surroundings, and interactive 3D elements designed to deliver an engaging virtual arena experience.",
+  tech: ["HTML5", "CSS3", "JavaScript", "Three.js", "WebGL"],
+  github: null,
+  demo: null,
+},
 ];
 
 const INTERNSHIPS = [
