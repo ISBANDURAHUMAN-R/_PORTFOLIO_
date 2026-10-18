@@ -2689,3 +2689,8 @@ footer.site-footer::before{
   font-family:var(--mono, monospace);
   font-size:11px;
 }
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
