@@ -2,7 +2,7 @@
 
 > A modern, interactive portfolio showcasing my projects, skills, achievements, and journey in AI & Data Science.
 
-🌐 **Live Portfolio:** https://rahumanportfolio-80kx2afm8-isbandurahuman-rs-projects.vercel.app/index.html
+🌐 **Live Portfolio:** https://rahumanportfolio.vercel.app/
 
 ---
 
