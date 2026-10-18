@@ -56,7 +56,7 @@ const PROJECTS = [
     "Tailwind CSS"
   ],
 
-  github: null,
+  github:"https://github.com/ISBANDURAHUMAN-R/NINJA-ACADEMY" ,
   demo: null
 },
 
@@ -164,8 +164,8 @@ const MINI_PROJECTS = [
   year: "2026",
   desc: "An immersive 3D chess experience featuring gothic-inspired aesthetics, detailed chess pieces, atmospheric lighting, and a dark fantasy environment that transforms traditional chess into a visually captivating experience.",
   tech: ["HTML5", "CSS3", "JavaScript", "Three.js", "WebGL"],
-  github: null,
-  demo: null,
+  github: "https://github.com/ISBANDURAHUMAN-R/3D-CHESS",
+  demo: "https://isbandurahuman-r.github.io/3D-CHESS/",
 },
 
 {
@@ -174,8 +174,8 @@ const MINI_PROJECTS = [
   year: "2026",
   desc: "An immersive 3D arena environment featuring a dynamic battlefield, atmospheric lighting, detailed surroundings, and interactive 3D elements designed to deliver an engaging virtual arena experience.",
   tech: ["HTML5", "CSS3", "JavaScript", "Three.js", "WebGL"],
-  github: null,
-  demo: null,
+  github: "https://github.com/ISBANDURAHUMAN-R/3D-ARENA/",
+  demo: "https://isbandurahuman-r.github.io/3D-ARENA/",
 },
 ];
 
