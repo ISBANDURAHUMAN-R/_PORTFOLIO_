@@ -2689,8 +2689,11 @@ footer.site-footer::before{
   font-family:var(--mono, monospace);
   font-size:11px;
 }
-.tech-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+/* Fix spacing between technology tags */
+.project-tech-row,
+.mini-project-tech-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  gap: 10px !important;
 }
