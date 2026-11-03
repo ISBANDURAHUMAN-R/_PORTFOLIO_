@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="_PORTFOLIO_ Banner" width="100%">
+</p>
+
 # Personal Portfolio — Isbandu Rahuman R.
 
 > A modern, interactive portfolio showcasing my projects, skills, achievements, and journey in AI & Data Science.
