@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Achievements | Isbandu Rahuman R.</title>
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <meta name="description" content="Certificates, competitions, milestones and technical achievements of Isbandu Rahuman R., an AI and Data Science developer.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon-192.png">
   <meta name="theme-color" content="#1B303D" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#1B303D">
@@ -15,7 +16,15 @@
   <meta name="apple-mobile-web-app-title" content="Isbandu Portfolio">
   <meta name="application-name" content="Isbandu Portfolio">
   <meta name="msapplication-TileColor" content="#1B303D">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap">
+</noscript>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 
 <body>
@@ -23,7 +32,7 @@
   <div id="page-transition-bar" aria-hidden="true"></div>
   <div id="page-transition-curtain" aria-hidden="true"></div>
 
-  <nav class="site-nav scrolled">
+  <nav class="site-nav scrolled" aria-label="Primary navigation">
     <a href="index.html" class="nav-brand">IR</a>
     <div class="nav-items">
       <a href="index.html">Home</a>
@@ -33,7 +42,7 @@
       <a href="skills.html">Skills</a>
       <a href="contact.html">Contact</a>
     </div>
-    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">☰</button>
+    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
   </nav>
   <div id="mobile-menu">
     <a href="index.html">Home</a>
@@ -55,7 +64,167 @@
 
     <section class="section" style="border-top:none; padding-top:0;">
       <div class="section-inner">
-        <div id="achievements-list"></div>
+        <div id="achievements-list">
+          <div class="ach-year-section reveal in">
+            <div class="ach-year-title-row">
+              <span class="ach-year-badge">2026</span>
+              <div class="ach-year-divider"></div>
+            </div>
+
+            <div class="ach-tree-container">
+              <!-- Competitions / Milestones -->
+              <div class="ach-tree-row reveal in">
+                <div class="ach-tree-branch">
+                  <span class="ach-tree-node"></span>
+                  <span class="ach-tree-connector-line"></span>
+                </div>
+                <div class="ach-simple-card">
+                  <div class="ach-simple-card-top">
+                    <h3 class="ach-simple-title">PECTEAM 2K26 — 2nd Place</h3>
+                    <div style="display:flex; align-items:center; flex-wrap:wrap; gap:8px;">
+                      <span class="ach-award-pill">2nd Place</span>
+                      <span class="ach-simple-venue">Panimalar Engineering College • International Conference</span>
+                    </div>
+                  </div>
+                  <p class="ach-simple-desc">Presented research paper in applied AI and data science, securing 2nd place overall among competing collegiate delegations.</p>
+                  <div class="ach-cert-actions" style="margin-top:14px;">
+                    <button class="ach-cert-btn preview" data-cert-view="true" data-cert-title="PECTEAM 2K26 — 2nd Place" data-cert-url="pecteam-2k26-certificate.pdf">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                      <span>View Certificate</span>
+                    </button>
+                    <a class="ach-cert-btn download" href="pecteam-2k26-certificate.pdf" download="pecteam-2k26-certificate.pdf">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                      <span>Download Certificate</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ach-tree-row reveal in">
+                <div class="ach-tree-branch">
+                  <span class="ach-tree-node"></span>
+                  <span class="ach-tree-connector-line"></span>
+                </div>
+                <div class="ach-simple-card">
+                  <div class="ach-simple-card-top">
+                    <h3 class="ach-simple-title">NEXT GEN CODERS CLUB — Second Round</h3>
+                    <div style="display:flex; align-items:center; flex-wrap:wrap; gap:8px;">
+                      <span class="ach-award-pill">Round 2</span>
+                      <span class="ach-simple-venue">Panimalar Computing &amp; Coding Guild</span>
+                    </div>
+                  </div>
+                  <p class="ach-simple-desc">Successfully cleared round 1 competitive algorithmic challenges to advance into round 2 selection trials.</p>
+                </div>
+              </div>
+
+              <div class="ach-tree-row reveal in">
+                <div class="ach-tree-branch">
+                  <span class="ach-tree-node"></span>
+                  <span class="ach-tree-connector-line"></span>
+                </div>
+                <div class="ach-simple-card">
+                  <div class="ach-simple-card-top">
+                    <h3 class="ach-simple-title">Pixel Forge — Poster Competition — 3rd Place</h3>
+                    <div style="display:flex; align-items:center; flex-wrap:wrap; gap:8px;">
+                      <span class="ach-award-pill">3rd Place</span>
+                      <span class="ach-simple-venue">Design &amp; Technology Symposium</span>
+                    </div>
+                  </div>
+                  <p class="ach-simple-desc">Awarded third place for designing a technical communication infographic illustrating complex neural network architectures and data pipelines.</p>
+                </div>
+              </div>
+
+              <!-- Certificates -->
+              <div class="ach-tree-row reveal in">
+                <div class="ach-tree-branch">
+                  <span class="ach-tree-node cert-node"></span>
+                  <span class="ach-tree-connector-line"></span>
+                </div>
+                <div class="ach-cert-block">
+                  <div class="ach-cert-header">
+                    <span class="ach-cert-header-title">Certificates (2026)</span>
+                  </div>
+                  <div class="ach-cert-grid">
+                    <div class="ach-cert-card">
+                      <div class="ach-cert-info">
+                        <h4 class="ach-cert-title">PECTEAM 2K26 — 2nd Place Award &amp; Presentation Certificate</h4>
+                        <div class="ach-cert-meta">
+                          <span>Panimalar Engineering College</span>
+                          <span class="ach-dot">•</span>
+                          <span>2026</span>
+                        </div>
+                      </div>
+                      <div class="ach-cert-actions">
+                        <button class="ach-cert-btn preview" data-cert-view="true" data-cert-title="PECTEAM 2K26 — 2nd Place Award &amp; Presentation Certificate" data-cert-url="pecteam-2k26-certificate.pdf">View</button>
+                        <a class="ach-cert-btn download" href="pecteam-2k26-certificate.pdf" download>Download</a>
+                      </div>
+                    </div>
+
+                    <div class="ach-cert-card">
+                      <div class="ach-cert-info">
+                        <h4 class="ach-cert-title">ServiceNow Certified Professional Track (Flows, ATF &amp; CSA)</h4>
+                        <div class="ach-cert-meta">
+                          <span>ServiceNow University</span>
+                          <span class="ach-dot">•</span>
+                          <span>2026</span>
+                        </div>
+                      </div>
+                      <div class="ach-cert-actions">
+                        <button class="ach-cert-btn preview" data-cert-view="true" data-cert-title="ServiceNow Certified Professional Track (Flows, ATF &amp; CSA)" data-cert-url="servicenow-certificate.pdf">View</button>
+                        <a class="ach-cert-btn download" href="servicenow-certificate.pdf" download>Download</a>
+                      </div>
+                    </div>
+
+                    <div class="ach-cert-card">
+                      <div class="ach-cert-info">
+                        <h4 class="ach-cert-title">Python Developer Internship Credential</h4>
+                        <div class="ach-cert-meta">
+                          <span>CODSOFT</span>
+                          <span class="ach-dot">•</span>
+                          <span>2026</span>
+                        </div>
+                      </div>
+                      <div class="ach-cert-actions">
+                        <button class="ach-cert-btn preview" data-cert-view="true" data-cert-title="Python Developer Internship Credential" data-cert-url="codsoft-python-certificate.pdf">View</button>
+                        <a class="ach-cert-btn download" href="codsoft-python-certificate.pdf" download>Download</a>
+                      </div>
+                    </div>
+
+                    <div class="ach-cert-card">
+                      <div class="ach-cert-info">
+                        <h4 class="ach-cert-title">Web Development Internship Credential</h4>
+                        <div class="ach-cert-meta">
+                          <span>CODSOFT</span>
+                          <span class="ach-dot">•</span>
+                          <span>2026</span>
+                        </div>
+                      </div>
+                      <div class="ach-cert-actions">
+                        <button class="ach-cert-btn preview" data-cert-view="true" data-cert-title="Web Development Internship Credential" data-cert-url="codsoft-web-certificate.pdf">View</button>
+                        <a class="ach-cert-btn download" href="codsoft-web-certificate.pdf" download>Download</a>
+                      </div>
+                    </div>
+
+                    <div class="ach-cert-card">
+                      <div class="ach-cert-info">
+                        <h4 class="ach-cert-title">Cybersecurity Analyst &amp; Threat Mitigation Credential</h4>
+                        <div class="ach-cert-meta">
+                          <span>InternPe Cyber Cohort</span>
+                          <span class="ach-dot">•</span>
+                          <span>2026</span>
+                        </div>
+                      </div>
+                      <div class="ach-cert-actions">
+                        <button class="ach-cert-btn preview" data-cert-view="true" data-cert-title="Cybersecurity Analyst &amp; Threat Mitigation Credential" data-cert-url="internpe-cybersecurity-certificate.pdf">View</button>
+                        <a class="ach-cert-btn download" href="internpe-cybersecurity-certificate.pdf" download>Download</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -133,9 +302,6 @@
       <span>Contact</span>
     </a>
   </nav>
-
-
-  <script src="script.js"></script>
 </body>
 
 </html>

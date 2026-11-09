@@ -15,38 +15,24 @@
 <meta name="apple-mobile-web-app-title" content="Isbandu Portfolio">
 <meta name="application-name" content="Isbandu Portfolio">
 <meta name="msapplication-TileColor" content="#1B303D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap">
+</noscript>
+<link rel="preload" as="image" href="profile-400.webp" media="(max-width: 600px)" fetchpriority="high">
+<link rel="preload" as="image" href="profile.webp" media="(min-width: 601px)" fetchpriority="high">
 <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-
-<div id="loading-screen" class="loading-screen" aria-hidden="true">
-  <div class="loader-backdrop"></div>
-  <div class="loader-content">
-    <div class="loader-badge">
-      <div class="loader-ring"></div>
-      <div class="loader-ring-outer"></div>
-      <span class="loader-monogram">IR</span>
-    </div>
-    <div class="loader-meta">
-      <div class="loader-title">ISBANDU RAHUMAN R.</div>
-      <div class="loader-role">AI &amp; DATA SCIENCE · SOFTWARE DEVELOPER</div>
-    </div>
-    <div class="loader-progress-container">
-      <div class="loader-progress-bar">
-        <div class="loader-progress-fill" id="loader-progress-fill"></div>
-      </div>
-      <div class="loader-status-row">
-        <span class="loader-status-text" id="loader-status-text">INITIALIZING WORKSPACE...</span>
-        <span class="loader-percent" id="loader-percent">0%</span>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div id="page-transition-bar" aria-hidden="true"></div>
 <div id="page-transition-curtain" aria-hidden="true"></div>
 
-<nav class="site-nav">
+<nav class="site-nav" aria-label="Primary navigation">
   <a href="index.html" class="nav-brand" aria-label="Isbandu Rahuman R. home">IR</a>
   <div class="nav-items">
     <a href="index.html" class="active">Home</a>
@@ -56,7 +42,7 @@
     <a href="skills.html">Skills</a>
     <a href="contact.html">Contact</a>
   </div>
-  <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">☰</button>
+  <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
 </nav>
 <div id="mobile-menu">
   <a href="index.html" class="active">Home</a>
@@ -72,24 +58,24 @@
     <div class="hero-glow"></div>
     <div class="hero-inner">
       <div class="hero-left">
-        <div class="hero-identity reveal">
+        <div class="hero-identity reveal in">
           <h1 class="hero-identity-name">ISBANDU RAHUMAN R.</h1>
           <div class="hero-identity-role">AI &amp; DATA SCIENCE · SOFTWARE DEVELOPER</div>
         </div>
-        <div class="hero-labels reveal">
+        <div class="hero-labels reveal in">
           <span class="hero-label-pill">ARTIFICIAL INTELLIGENCE</span>
           <span class="hero-label-pill">COMPUTER VISION</span>
           <span class="hero-label-pill">BACKEND APIS</span>
         </div>
-        <h2 class="hero-headline reveal">Building dependable AI systems and <em>intelligent software</em>.</h2>
-        <p class="hero-sub reveal">Undergraduate developer specializing in machine learning pipelines, computer vision, and backend systems. Focused on building practical software that solves real problems.</p>
-        <div class="hero-ctas reveal">
+        <h2 class="hero-headline reveal in">Building dependable AI systems and <em>intelligent software</em>.</h2>
+        <p class="hero-sub reveal in">Undergraduate developer specializing in machine learning pipelines, computer vision, and backend systems. Focused on building practical software that solves real problems.</p>
+        <div class="hero-ctas reveal in">
           <a href="projects.html" class="cta-primary">Explore Projects</a>
           <a href="https://github.com/ISBANDURAHUMAN-R" target="_blank" rel="noreferrer" class="cta-secondary">View GitHub</a>
         </div>
         <div class="hero-scroll" aria-hidden="true">Scroll</div>
       </div>
-      <div class="hero-portrait-wrap reveal reveal-scale">
+      <div class="hero-portrait-wrap reveal reveal-scale in">
         <!-- DEVELOPER PROFILE CARD -->
         <div class="hero-portrait-card" id="hero-profile-card">
           <div class="hero-portrait-top">
@@ -97,7 +83,10 @@
             <span class="hero-portrait-badge">DEVELOPER</span>
           </div>
           <div class="hero-portrait-img-box">
-            <img class="hero-portrait-image" src="profile.jpg" alt="Portrait of Isbandu Rahuman R.">
+            <picture>
+              <source type="image/webp" srcset="profile-400.webp 400w, profile.webp 700w" sizes="(max-width: 600px) 320px, 360px">
+              <img class="hero-portrait-image" src="profile.webp" alt="Portrait of Isbandu Rahuman R." width="700" height="960" fetchpriority="high" decoding="async">
+            </picture>
           </div>
           <div class="hero-portrait-meta">
             <div class="hero-meta-row"><span>Name</span><span>Isbandu Rahuman R.</span></div>
@@ -183,9 +172,5 @@
     <span>Contact</span>
   </a>
 </nav>
-
-
-
-<script src="script.js"></script>
 </body>
 </html>
