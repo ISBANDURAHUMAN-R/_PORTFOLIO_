@@ -2,15 +2,15 @@
   <img src="assets/banner.png" alt="_PORTFOLIO_ Banner" width="100%">
 </p>
 
-# Personal Portfolio — Isbandu Rahuman R.
+# ◈ Personal Portfolio — Isbandu Rahuman R.
 
 > A modern, interactive portfolio showcasing my projects, skills, achievements, and journey in AI & Data Science.
 
-🌐 **Live Portfolio:** https://rahumanportfolio.vercel.app/
+› **Live Portfolio:** https://rahumanportfolio.vercel.app/
 
 ---
 
-## About
+## ✦ About
 
 This repository contains my personal portfolio website, designed to present my technical skills, projects, certifications, achievements, and learning journey in a simple and interactive experience.
 
@@ -25,7 +25,7 @@ I built it with a focus on:
 
 ---
 
-## Tech Stack
+## ❖ Tech Stack
 
 **Frontend**
 - HTML5
@@ -39,26 +39,26 @@ I built it with a focus on:
 
 ---
 
-## Featured Projects
+## ◆ Featured Projects
 
 ### TRUVEX
 AI-powered misinformation and claim verification system.
 
-🔗 https://github.com/ISBANDURAHUMAN-R/TRUVEX
+» https://github.com/ISBANDURAHUMAN-R/TRUVEX
 
 ### Quantum Threat
 A cybersecurity-focused project exploring quantum-related security concepts.
 
-🔗 https://github.com/ISBANDURAHUMAN-R/QUANTUM-THREAT
+» https://github.com/ISBANDURAHUMAN-R/QUANTUM-THREAT
 
 ### Banking Management System
 A banking management application focused on core banking operations and data handling.
 
-🔗 https://github.com/ISBANDURAHUMAN-R/Banking-Management-System
+» https://github.com/ISBANDURAHUMAN-R/Banking-Management-System
 
 ---
 
-## Skills
+## ⬢ Skills
 
 - Python
 - Java
@@ -75,7 +75,7 @@ A banking management application focused on core banking operations and data han
 
 ---
 
-## Currently Learning
+## 彡 Currently Learning
 
 - Advanced JavaScript
 - Backend Development
@@ -86,13 +86,13 @@ A banking management application focused on core banking operations and data han
 
 ---
 
-## Goals
+## § Goals
 
 I'm continuously building projects and improving my development skills with the goal of working in **AI, Machine Learning, and Software Development**.
 
 ---
 
-## Connect With Me
+## ⬡ Connect With Me
 
 **GitHub:**  
 https://github.com/ISBANDURAHUMAN-R
@@ -108,7 +108,7 @@ r1rahuman@gmail.com
 
 ---
 
-## License
+## ■ License
 
 This project is created for personal portfolio and educational purposes.
 
