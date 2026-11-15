@@ -19,25 +19,25 @@ This repository contains a multi-page personal developer portfolio built with se
 ```mermaid
 graph TD
     subgraph Navigation ["Multi-Page Static Site Architecture"]
-        Index[index.html<br/>Hero & Overview]
-        Projects[projects.html<br/>Architecture & Repositories]
-        Skills[skills.html<br/>Full-Stack & AI Matrix]
-        Experience[experience.html<br/>Career Timeline]
-        Achievements[achievements.html<br/>Certifications & Awards]
-        Contact[contact.html<br/>Connect & Social Channels]
+        Index["index.html<br/>Hero & Overview"]
+        Projects["projects.html<br/>Architecture & Repositories"]
+        Skills["skills.html<br/>Full-Stack & AI Matrix"]
+        Experience["experience.html<br/>Career Timeline"]
+        Achievements["achievements.html<br/>Certifications & Awards"]
+        Contact["contact.html<br/>Connect & Social Channels"]
     end
 
     subgraph ClientCore ["Interactive Client Engine (script.js)"]
-        NavRouter[Navigation Controller & Active Link Highlighter]
-        ThemeEngine[Theme Switcher & Preference Store]
-        ScrollObserver[Intersection Observer & Reveal Animations]
-        FormHandler[Client Validation & Contact Link Dispatcher]
+        NavRouter["Navigation Controller & Active Link Highlighter"]
+        ThemeEngine["Theme Switcher & Preference Store"]
+        ScrollObserver["Intersection Observer & Reveal Animations"]
+        FormHandler["Client Validation & Contact Link Dispatcher"]
     end
 
     subgraph StylesheetLayer ["CSS3 Design System (style.css)"]
-        Tokens[Design Tokens: Colors | Typography | Spacing]
-        Grid[CSS Grid Layout System]
-        Responsive[Media Query Breakpoints]
+        Tokens["Design Tokens: Colors • Typography • Spacing"]
+        Grid["CSS Grid Layout System"]
+        Responsive["Media Query Breakpoints"]
     end
 
     Index & Projects & Skills & Experience & Achievements & Contact --> NavRouter
