@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Multi-Page Asset & Script Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate JavaScript Syntax
+        run: |
+          node -c script.js
+
+      - name: Verify Web Entrypoints & Pages
+        run: |
+          test -f index.html || exit 1
+          test -f projects.html || exit 1
+          test -f skills.html || exit 1
+          test -f experience.html || exit 1
+          test -f achievements.html || exit 1
+          test -f contact.html || exit 1
+          test -f style.css || exit 1
+          echo "Portfolio pages and assets validated successfully."
