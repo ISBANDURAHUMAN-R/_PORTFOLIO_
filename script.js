@@ -67,7 +67,19 @@ const PROJECTS = [
     solution: "A full-stack skill development platform that maps technologies and concepts into connected learning paths, allowing users to track their progress, unlock new skills, and build personalized roadmaps toward mastery.",
     tech: ["Python", "Django", "SQL", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ISBANDURAHUMAN-R/NEXORA", demo: null
-  }
+  },
+  {
+  name: "KYOKKO",tag: "Gesture-Controlled Virtual Camera",
+  category: "AI / Computer Vision",
+  year: "2026",
+  status: "Active",
+  description: "A gesture-controlled virtual webcam application that uses computer vision and hand gestures to control camera visibility, enabling users to create an interactive invisibility effect during video meetings and live camera sessions.",
+  problem: "Traditional video conferencing applications provide limited creative control over camera visibility and visual presentation. Users who want dynamic camera effects or gesture-based interaction often need additional software, manual controls, or complex video editing workflows.",
+  solution: "KYOKKO uses real-time hand gesture recognition and computer vision to detect user movements and control a virtual camera output. It applies an invisibility effect to the camera feed and provides a hands-free interaction experience for supported video conferencing applications.",
+  tech: ["Python", "OpenCV", "MediaPipe", "Computer Vision", "Virtual Camera", "NumPy"],
+  github: "YOUR_KYOKKO_GITHUB_REPOSITORY_URL",
+  demo: null
+},
 ];
 
 /* ================= NAVIGATION ================= */
