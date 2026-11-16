@@ -70,7 +70,7 @@ const PROJECTS = [
   },
   {
   name: "KYOKKO",tag: "Gesture-Controlled Virtual Camera",
-  category: "AI / Computer Vision",
+  category: " Vision",
   year: "2026",
   status: "Active",
   description: "A gesture-controlled virtual webcam application that uses computer vision and hand gestures to control camera visibility, enabling users to create an interactive invisibility effect during video meetings and live camera sessions.",
@@ -284,6 +284,39 @@ function initProjectsPage() {
   const filterPills = document.querySelectorAll("#project-filters .filter-pill");
   const searchInput = document.getElementById("project-search");
   const cards = grid.querySelectorAll(".project-card");
+  const cards = grid.querySelectorAll(".project-card");
+
+// Dynamically calculate project category counts
+function updateCategoryCounts() {
+  const counts = {
+    all: cards.length + (featuredCard ? 1 : 0),
+    AI: featuredCard ? 1 : 0,
+    Vision: 0,
+    FullStack: 0
+  };
+
+  cards.forEach((card) => {
+    const category = card.dataset.category;
+
+    if (Object.prototype.hasOwnProperty.call(counts, category)) {
+      counts[category]++;
+    }
+  });
+
+  filterPills.forEach((pill) => {
+    const category = pill.dataset.filter || "all";
+    const countElement = pill.querySelector(".filter-count");
+
+    if (countElement && Object.prototype.hasOwnProperty.call(counts, category)) {
+      countElement.textContent = counts[category];
+    }
+  });
+}
+
+updateCategoryCounts();
+
+let activeCategory = "all";
+let searchQuery = "";
 
   let activeCategory = "all";
   let searchQuery = "";
