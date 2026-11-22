@@ -18,26 +18,26 @@ This repository contains a multi-page personal developer portfolio built with se
 ## ◆ System Architecture
 ```mermaid
 graph TD
-    subgraph Navigation ["Multi-Page Static Site Architecture"]
-        Index["index.html<br/>Hero & Overview"]
-        Projects["projects.html<br/>Architecture & Repos"]
-        Skills["skills.html<br/>Full-Stack & AI Matrix"]
-        Experience["experience.html<br/>Career Timeline"]
-        Achievements["achievements.html<br/>Certifications & Awards"]
-        Contact["contact.html<br/>Connect & Social Channels"]
+    subgraph Navigation ["&nbsp; Multi-Page Static Site Architecture &nbsp;"]
+        Index["&nbsp; index.html &nbsp;<br/>&nbsp; Hero &amp; Overview &nbsp;"]
+        Projects["&nbsp; projects.html &nbsp;<br/>&nbsp; Repositories &nbsp;"]
+        Skills["&nbsp; skills.html &nbsp;<br/>&nbsp; Full-Stack &amp; AI &nbsp;"]
+        Experience["&nbsp; experience.html &nbsp;<br/>&nbsp; Career Timeline &nbsp;"]
+        Achievements["&nbsp; achievements.html &nbsp;<br/>&nbsp; Certifications &nbsp;"]
+        Contact["&nbsp; contact.html &nbsp;<br/>&nbsp; Social Channels &nbsp;"]
     end
 
-    subgraph ClientCore ["Interactive Client Engine (script.js)"]
-        NavRouter["Navigation Controller &<br/>Active Link Highlighter"]
-        ThemeEngine["Theme Switcher &<br/>Preference Store"]
-        ScrollObserver["Intersection Observer &<br/>Reveal Animations"]
-        FormHandler["Client Validation &<br/>Contact Link Dispatcher"]
+    subgraph ClientCore ["&nbsp; Interactive Client Engine &nbsp;"]
+        NavRouter["&nbsp; Navigation Controller &nbsp;<br/>&nbsp; &amp; Active Highlighter &nbsp;"]
+        ThemeEngine["&nbsp; Theme Switcher &amp; &nbsp;<br/>&nbsp; Preference Store &nbsp;"]
+        ScrollObserver["&nbsp; Intersection Observer &nbsp;<br/>&nbsp; &amp; Reveal FX &nbsp;"]
+        FormHandler["&nbsp; Client Validation &amp; &nbsp;<br/>&nbsp; Contact Dispatcher &nbsp;"]
     end
 
-    subgraph StylesheetLayer ["CSS3 Design System (style.css)"]
-        Tokens["Design Tokens:<br/>Colors • Typography • Spacing"]
-        Grid["CSS Grid Layout System"]
-        Responsive["Media Query Breakpoints"]
+    subgraph StylesheetLayer ["&nbsp; CSS3 Design System &nbsp;"]
+        Tokens["&nbsp; Design Tokens: &nbsp;<br/>&nbsp; Colors • Typography &nbsp;"]
+        Grid["&nbsp; CSS Grid Layout &nbsp;<br/>&nbsp; System &nbsp;"]
+        Responsive["&nbsp; Media Query &nbsp;<br/>&nbsp; Breakpoints &nbsp;"]
     end
 
     Index & Projects & Skills & Experience & Achievements & Contact --> NavRouter
