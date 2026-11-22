@@ -20,7 +20,7 @@ This repository contains a multi-page personal developer portfolio built with se
 graph TD
     subgraph Navigation ["Multi-Page Static Site Architecture"]
         Index["index.html<br/>Hero & Overview"]
-        Projects["projects.html<br/>Architecture & Repositories"]
+        Projects["projects.html<br/>Architecture & Repos"]
         Skills["skills.html<br/>Full-Stack & AI Matrix"]
         Experience["experience.html<br/>Career Timeline"]
         Achievements["achievements.html<br/>Certifications & Awards"]
@@ -28,14 +28,14 @@ graph TD
     end
 
     subgraph ClientCore ["Interactive Client Engine (script.js)"]
-        NavRouter["Navigation Controller & Active Link Highlighter"]
-        ThemeEngine["Theme Switcher & Preference Store"]
-        ScrollObserver["Intersection Observer & Reveal Animations"]
-        FormHandler["Client Validation & Contact Link Dispatcher"]
+        NavRouter["Navigation Controller &<br/>Active Link Highlighter"]
+        ThemeEngine["Theme Switcher &<br/>Preference Store"]
+        ScrollObserver["Intersection Observer &<br/>Reveal Animations"]
+        FormHandler["Client Validation &<br/>Contact Link Dispatcher"]
     end
 
     subgraph StylesheetLayer ["CSS3 Design System (style.css)"]
-        Tokens["Design Tokens: Colors • Typography • Spacing"]
+        Tokens["Design Tokens:<br/>Colors • Typography • Spacing"]
         Grid["CSS Grid Layout System"]
         Responsive["Media Query Breakpoints"]
     end
